@@ -1,0 +1,3 @@
+I think template function are not accesible by simply including the header file
+
+so you will have to export
