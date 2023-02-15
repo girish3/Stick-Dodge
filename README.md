@@ -11,5 +11,3 @@ front-flip, wall-flip but not able to do so in your real life, this virtual worl
 game's source code info :-
 
         The game was written in C++ on Codeblocks IDE and SDL was used as a graphics library.
-        
-Enjoy and let enjoy.....(jiyo aur jinedo)
