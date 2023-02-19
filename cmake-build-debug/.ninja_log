@@ -1,0 +1,12 @@
+# ninja log v5
+3	1539	1676773280029306672	CMakeFiles/Stick_Dodge.dir/src/Goli.cpp.o	f4100587eaa78aff
+2	1547	1676773280029321829	CMakeFiles/Stick_Dodge.dir/src/action.cpp.o	e9561c5a1e2e72f4
+0	1562	1676773280051377293	CMakeFiles/Stick_Dodge.dir/src/Game.cpp.o	41e7b669357bd0
+1545	2558	1676773281046160163	CMakeFiles/Stick_Dodge.dir/src/LinkedList.cpp.o	21a5259ab3b32194
+1562	2800	1676773281288368055	CMakeFiles/Stick_Dodge.dir/src/MenuItem.cpp.o	8e5c54194b88126e
+1547	2819	1676773281309330235	CMakeFiles/Stick_Dodge.dir/src/Menu.cpp.o	2ed01fa63da9fdc3
+2819	2954	1676773281447266247	CMakeFiles/Stick_Dodge.dir/src/timer.cpp.o	4ed822bbf556e97b
+2954	3043	1676773281537287445	CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/LinkedList.cpp.o	b2022632c97b3c3a
+3043	3114	1676773281610237980	CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/Node.cpp.o	323f5dbbbe5a4924
+2558	3490	1676773281980376711	CMakeFiles/Stick_Dodge.dir/src/Node.cpp.o	366762d83d710e90
+21	4436	1676774351697082153	CMakeFiles/Stick_Dodge.dir/src/Stage.cpp.o	fd12c1ca151922fc

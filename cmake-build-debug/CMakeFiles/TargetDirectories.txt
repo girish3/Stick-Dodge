@@ -1,0 +1,3 @@
+/Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug/CMakeFiles/Stick_Dodge.dir
+/Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,210 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Stick_Dodge
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Stick_Dodge
+
+
+#############################################
+# Order-only phony target for Stick_Dodge
+
+build cmake_object_order_depends_target_Stick_Dodge: phony || CMakeFiles/Stick_Dodge.dir
+
+build CMakeFiles/Stick_Dodge.dir/src/action.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/action.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/action.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/Game.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/Game.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/Game.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/Goli.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/Goli.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/Goli.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/LinkedList.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/LinkedList.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/LinkedList.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/Menu.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/Menu.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/Menu.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/MenuItem.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/MenuItem.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/MenuItem.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/Node.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/Node.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/Node.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/Stage.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/Stage.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/Stage.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/src/timer.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/src/timer.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/src/timer.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/src
+
+build CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/LinkedList.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/templates$ node$ and$ linked$ list/LinkedList.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/LinkedList.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list
+
+build CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/Node.cpp.o: CXX_COMPILER__Stick_Dodge_Debug /Users/girishbudhwani/worksapce/Stick-Dodge/templates$ node$ and$ linked$ list/Node.cpp || cmake_object_order_depends_target_Stick_Dodge
+  DEP_FILE = CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/Node.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/girishbudhwani/worksapce/Stick-Dodge/. -I/Users/girishbudhwani/worksapce/Stick-Dodge/include -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_ttf -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_image -I/Users/girishbudhwani/worksapce/Stick-Dodge/include/SDL_mixer -I"/Users/girishbudhwani/worksapce/Stick-Dodge/templates node and linked list"
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stick_Dodge
+
+
+#############################################
+# Link the executable Stick_Dodge
+
+build Stick_Dodge: CXX_EXECUTABLE_LINKER__Stick_Dodge_Debug CMakeFiles/Stick_Dodge.dir/src/action.cpp.o CMakeFiles/Stick_Dodge.dir/src/Game.cpp.o CMakeFiles/Stick_Dodge.dir/src/Goli.cpp.o CMakeFiles/Stick_Dodge.dir/src/LinkedList.cpp.o CMakeFiles/Stick_Dodge.dir/src/Menu.cpp.o CMakeFiles/Stick_Dodge.dir/src/MenuItem.cpp.o CMakeFiles/Stick_Dodge.dir/src/Node.cpp.o CMakeFiles/Stick_Dodge.dir/src/Stage.cpp.o CMakeFiles/Stick_Dodge.dir/src/timer.cpp.o CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/LinkedList.cpp.o CMakeFiles/Stick_Dodge.dir/templates_node_and_linked_list/Node.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = CMakeFiles/Stick_Dodge.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stick_Dodge
+  TARGET_PDB = Stick_Dodge.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/girishbudhwani/worksapce/Stick-Dodge -B/Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/girishbudhwani/worksapce/Stick-Dodge/cmake-build-debug
+
+build all: phony Stick_Dodge
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/girishbudhwani/worksapce/Stick-Dodge/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/girishbudhwani/worksapce/Stick-Dodge/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
